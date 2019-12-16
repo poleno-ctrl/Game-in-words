@@ -69,7 +69,7 @@ def game_2():
                     game_2()
 def enter():
     global a, word
-    word = input()
+    word = input().lower()
     if word in words:
         print('''Это слово уже было названо!
 Введи другое, жулик!''')
